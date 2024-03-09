@@ -9,9 +9,12 @@
     display: flex;
 }
 
-.justify-start {
+.justify-end {
     justify-content: flex-end;
 }
+/* .m-t{ */
+    /* margin-top: 1%; */
+/* } */
 
 .bg-orange {
     background-color: #ff8a2a;
@@ -93,9 +96,23 @@
 .width1 {
     width: 50%;
 }
+.w-h{
+    width: 3%;
+    height: 3%;
+}
+.justify-content-center{
+    justify-content: center;
+}
 
 .border-radius {
     border-radius: 50%;
+    /* border: 1px solid green; */
+    overflow: hidden;
+}
+
+.border-radius-3 {
+    border-radius: 50%;
+    /* border-radius : 300px 300px 300px 300px; */
     /* border: 1px solid green; */
     overflow: hidden;
 }
